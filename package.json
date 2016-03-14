@@ -7,8 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "captureVisibleTab",
-    "screenshot"
+    "runtime",
+    "chrome",
+    "extensions",
+    "messaging"
   ],
   "author": "Pavel Evdokimov <salting@bk.ru>",
   "license": "ISC",
