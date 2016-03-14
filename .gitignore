@@ -1,0 +1,6 @@
+.idea
+node_modules
+.DS_Store*
+tests/tests.build.js
+test-extension/background.build.js
+test-extension/popup.build.js

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Test Messaging system",
+  "description": "",
+  "version": "0.1.0",
+  "minimum_chrome_version": "44",
+
+  "browser_action": {
+    "default_title": "Test popup",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "<all_urls>"
+  ]
+}
