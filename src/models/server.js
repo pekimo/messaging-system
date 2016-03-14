@@ -1,8 +1,9 @@
 import { EventEmitter2 } from 'eventemitter2';
 import Connect from '../services/connect';
-
-const CONNECTED_CLIENT = 'connected-client';
-const DISCONNECTED_CLIENT = 'disconnected-client';
+import {
+  CONNECTED_CLIENT,
+  DISCONNECTED_CLIENT
+} from '../constants/types-packets-constants';
 
 class Server extends EventEmitter2 {
   constructor() {
